@@ -98,7 +98,7 @@ form.error .eicon {
 .emess {
     opacity: 1;
     font-style: italic;
-    font-size: .8rem;
+    font-size: .7rem;
     text-align: right;
     color: hsl(0, 100%, 74%);
 }
