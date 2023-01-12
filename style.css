@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(/images/bg-intro-mobile.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: calc(100% - 50px);
+}
+
+.intro {
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 8px rgb(36, 35, 35, 0.2);
+}
+
+.upper {
+    padding: 16px 40px;
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+form {
+    position: relative;
+}
+
+input, button {
+    width: 100%;
+    height: 48px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+
+input {
+    padding: 16px;
+    border: 1px solid hsl(246, 25%, 77%);
+}
+
+form.error input {
+    border: 1px solid hsl(0, 100%, 74%);
+}
+
+.eicon {
+    opacity: 0;
+    position: absolute;
+    right: 10%;
+    padding-top: 12px;
+}
+
+form.error .eicon {
+    opacity: 1;
+    right: 10%;
+    position: absolute;
+    padding-top: 12px;
+}
+
+.emess {
+    opacity: 0;
+    text-align: right;
+    font-size: .8em;
+    color: hsl(0, 100%, 74%);
+}
+
+form.error .emess {
+    opacity: 1;
+    text-align: right;
+    font-size: .8em;
+    color: hsl(0, 100%, 74%);
+}
+
+button {
+    font-size: 1em;
+    text-transform: uppercase;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-weight: 600;
+    box-shadow: 0px 5px hsl(153, 31%, 48%);
+    margin-top: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(154, 73%, 57%);
+}
+
+button:active {
+    background-color: hsl(153, 31%, 48%);
+    transform: translateY(5px);
+    box-shadow: none;
+}
+
+.terms {
+    margin-top: 8px;
+}
+
+small {
+    font-size: .8em;
+    font-weight: 600;
+    color: hsl(246, 25%, 77%);
+}
+
+a {
+    color: hsl(0, 100%, 74%);
+}
+
+
+@media all and (min-width: 820px) {
+    body {
+        background-image: url(/images/bg-intro-desktop.png);
+    }
+
+    main {
+        flex-direction: row;
+        max-width: 70em;
+        gap: 50px;
+    }
+
+    .intro {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 3em;
+        line-height: 50px;
+        text-align: left;
+    }
+
+    .pintro {
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .sign {
+        width: 50%;
+    }
+
+    .lower {
+        padding: 40px;
+    }
+
+    .terms {
+        margin-top: 15px;
+        font-size: .8em;
+    }
+}
