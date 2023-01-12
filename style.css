@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-size: 14px;
 }
 
 html, body {
@@ -33,13 +34,13 @@ main {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 .pintro {
     padding-top: 5px;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
 }
@@ -95,21 +96,15 @@ form.error .eicon {
 }
 
 .emess {
-    opacity: 0;
-    text-align: right;
-    font-size: .8em;
-    color: hsl(0, 100%, 74%);
-}
-
-form.error .emess {
     opacity: 1;
+    font-style: italic;
+    font-size: .8rem;
     text-align: right;
-    font-size: .8em;
     color: hsl(0, 100%, 74%);
 }
 
 button {
-    font-size: 1em;
+    font-size: 1.2rem;
     text-transform: uppercase;
     background-color: hsl(154, 59%, 51%);
     color: white;
@@ -129,10 +124,13 @@ button:active {
     box-shadow: none;
 }
 
+small, a {
+    font-size: .6rem;
+}
+
 .terms {
     text-align: center;
     margin-top: 8px;
-    font-size: .8em;
     font-weight: 600;
     color: hsl(246, 25%, 77%);
 }
@@ -158,7 +156,7 @@ a {
     }
 
     h1 {
-        font-size: 3em;
+        font-size: 3rem;
         line-height: 50px;
         text-align: left;
     }
@@ -173,11 +171,14 @@ a {
     }
 
     .lower {
-        padding: 40px;
+        padding: 30px;
     }
 
     .terms {
         margin-top: 15px;
-        font-size: .8em;
+    }
+
+    small, a {
+        font-size: .7rem;
     }
 }
