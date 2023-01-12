@@ -32,7 +32,15 @@ main {
     color: white;
 }
 
-p {
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.pintro {
+    padding-top: 5px;
+    font-size: 1em;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -122,10 +130,8 @@ button:active {
 }
 
 .terms {
+    text-align: center;
     margin-top: 8px;
-}
-
-small {
     font-size: .8em;
     font-weight: 600;
     color: hsl(246, 25%, 77%);
