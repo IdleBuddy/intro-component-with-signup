@@ -38,8 +38,8 @@ Screenshot of Mobile (390px)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/IdleBuddy/intro-component-with-signup)
+- Live Site URL: [Vercel](https://intro-component-with-signup-two.vercel.app/)
 
 ## My process
 
